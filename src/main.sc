@@ -1,7 +1,6 @@
 require: slotfilling/slotFilling.sc
   module = sys.zb-common
   
-// Для больших сценариев паттерны можно выносить в отдельный файл 
 patterns:
     $has_numbers = * (*1*|*2*|*3*|*4*|*5*|*6*|*7*|*8*|*9*|*0*) *
     
