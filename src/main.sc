@@ -10,7 +10,7 @@ theme: /HasNumbers
         q!: $regex</start>
         a: Здравствуйте! Назовите номер счёта, о котором идет речь?
 
-   state: ExtractAccountNumber
+    state: ExtractAccountNumber
         q!: $has_numbers
         script:
             // Удаляем всё, что не цифры
